@@ -28,11 +28,12 @@
 .RELEASENOTES
 https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/README.md#releasenotes
 
-.PRIVATEDATA 2016-Datacenter,2016-Datacenter-Server-Core
+.PRIVATEDATA 
 
-#>
+#> 
 
-#Requires -Module @{ModuleName = 'UpdateServicesDsc';ModuleVersion='1.0.72'}
+#Requires -Module @{moduleversion = '1.0.72.0'; modulename = 'UpdateServicesDsc'}
+
 
 <# 
 
@@ -46,7 +47,7 @@ Param()
 
 Configuration WindowsServerUpdateServicesConfig
 {
-    Import-DscResource -ModuleName @{ModuleName = 'UpdateServicesDsc';ModuleVersion='1.0.72'}
+    Import-DscResource -ModuleName @{moduleversion = '1.0.72.0'; modulename = 'UpdateServicesDsc'}
 
     WindowsFeature UpdateServices
     {
