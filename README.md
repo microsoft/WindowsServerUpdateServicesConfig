@@ -1,5 +1,19 @@
+# Windows Server Update Services Config
 
-# Contributing
+[![Build status](https://ci.appveyor.com/api/projects/status/2179d3q3c1rw6vlu/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/windowsservercontainerhostconfig/branch/master)
+
+This DSC Configuration script is in PREVIEW
+as a minimal viable product.
+The work remaining for this script includes:
+
+- Documentation including release notes
+- Integration/Acceptance tests specific to the scenario
+
+This script was originally published as a test configuration
+in the repository for the DSC resource
+[UpdateServicesDsc](http://github.com/mgreenegit/updateservicesdsc).
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
