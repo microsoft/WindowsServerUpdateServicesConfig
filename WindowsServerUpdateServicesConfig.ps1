@@ -32,7 +32,7 @@ https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/READM
 
 #>
 
-#Requires -Module UpdateServicesDsc
+#Requires -Module @{ModuleName = 'UpdateServicesDsc';ModuleVersion='1.0.72'}
 
 <# 
 
@@ -46,7 +46,7 @@ Param()
 
 Configuration WindowsServerUpdateServicesConfig
 {
-    Import-DscResource -ModuleName UpdateServicesDsc
+    Import-DscResource -ModuleName @{ModuleName = 'UpdateServicesDsc';ModuleVersion='1.0.72'}
 
     WindowsFeature UpdateServices
     {
