@@ -1,6 +1,6 @@
 # Windows Server Update Services Config
 
-[![Build status](https://ci.appveyor.com/api/projects/status/cn6auwsbgp8rmxix/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/windowsserverupdateservicesconfig/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/am4i9tl7wr0299jy/branch/master?svg=true)](https://ci.appveyor.com/project/mgreenegit/windowsserverupdateservicesconfig/branch/master)
 
 This DSC Configuration script is in PREVIEW
 as a minimal viable product.
