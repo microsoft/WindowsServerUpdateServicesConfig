@@ -1,3 +1,49 @@
+
+<#PSScriptInfo
+
+.VERSION 0.1.0
+
+.GUID b8b3ec91-c2ec-4b62-af9c-41a8cee66596
+
+.AUTHOR Michael Greene
+
+.COMPANYNAME Microsoft
+
+.COPYRIGHT 
+
+.TAGS DSCConfiguration
+
+.LICENSEURI https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/LICENSE
+
+.PROJECTURI https://github.com/Microsoft/WindowsServerUpdateServicesConfig
+
+.ICONURI 
+
+.EXTERNALMODULEDEPENDENCIES 
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES 
+
+.RELEASENOTES
+https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/README.md#releasenotes
+
+.PRIVATEDATA 2016-Datacenter,2016-Datacenter-Server-Core
+
+#>
+
+#Requires -Module UpdateServicesDsc
+
+<# 
+
+.DESCRIPTION 
+ Example script to demonstrate deployment and configuration of Windows Server Update Services using DSC. 
+
+#> 
+
+Param()
+
+
 Configuration WindowsServerUpdateServicesConfig
 {
     Import-DscResource -ModuleName UpdateServicesDsc
