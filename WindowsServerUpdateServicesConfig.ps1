@@ -28,7 +28,7 @@
 .RELEASENOTES
 https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/README.md#releasenotes
 
-.PRIVATEDATA 
+.PRIVATEDATA '2016-Datacenter,2016-Datacenter-Server-Core'
 
 #> 
 
@@ -41,9 +41,6 @@ https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/READM
  Example script to demonstrate deployment and configuration of Windows Server Update Services using DSC. 
 
 #> 
-
-Param()
-
 
 Configuration WindowsServerUpdateServicesConfig
 {
