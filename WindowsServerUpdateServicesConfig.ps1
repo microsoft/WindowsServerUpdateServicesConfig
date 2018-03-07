@@ -28,7 +28,7 @@
 .RELEASENOTES
 https://github.com/Microsoft/WindowsServerUpdateServicesConfig/blob/master/README.md#releasenotes
 
-.PRIVATEDATA 2016-Datacenter
+.PRIVATEDATA 2016-Datacenter-Server-Core
 
 #> 
 
